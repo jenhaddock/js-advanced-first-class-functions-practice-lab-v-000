@@ -16,17 +16,17 @@ function logDriversByHometown(array, location){
 
 
 function driversByRevenue(array){
-  
+
 }
 
 function driversByName(array){
-  array.name.sort();
+  array.sort();
 }
 
 function totalRevenue(array){
-  
+
 }
 
 function averageRevenue(array){
-  
+
 }
