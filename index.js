@@ -20,8 +20,8 @@ function driversByRevenue(array){
 }
 
 function driversByName(array){
-  array.name.sort(function (a, b){
-    return a.localeCompare(b);
+  array.sort(function (a, b){
+    return a.name.localeCompare(b.name);
   });
 }
 
