@@ -9,7 +9,24 @@ function logDriversByHometown(array, location){
   array.forEach(function(findMatching){
     return array.filter(function(matchIt){
       return matchIt.name === location
-    })    
+    })
     console.log(element.name)
   });
+}
+
+
+function driversByRevenue(array){
+  
+}
+
+function driversByName(array){
+  array.name.sort();
+}
+
+function totalRevenue(array){
+  
+}
+
+function averageRevenue(array){
+  
 }
