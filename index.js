@@ -4,3 +4,11 @@ function logDriverNames(array){
     console.log(element.name)
   });
 }
+
+function logDriversByHometown(array, location){
+  array.forEach(function(element){
+    return element.filter(function(matchIt){
+      return matchIt.hometown === location
+    })
+  })
+}
