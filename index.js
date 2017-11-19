@@ -6,7 +6,10 @@ function logDriverNames(array){
 }
 
 function logDriversByHometown(array, location){
-  array.forEach(function(element){
+  array.forEach(function(findMatching){
+    return array.filter(function(matchIt){
+      return matchIt.name === location
+    })    
     console.log(element.name)
   });
 }
