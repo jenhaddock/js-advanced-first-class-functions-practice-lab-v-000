@@ -2,5 +2,5 @@
 function selectDifferentDrivers(array){
   array.forEach(function(element){
     console.log(element.name)
-  }));
+  });
 }
