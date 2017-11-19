@@ -28,7 +28,7 @@ const driversByName = function(array){
 const totalRevenue = function(array){
   return array.reduce((balance, addition) => {
     return balance + addition.revenue;
-  })
+  }, 0);
 }
 
 const averageRevenue = function(array){
