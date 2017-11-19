@@ -1,11 +1,11 @@
 // Code your solution in this file!
-function logDriverNames(array){
+const logDriverNames = function(array){
   array.forEach(function(element){
     console.log(element.name)
   });
 }
 
-function logDriversByHometown(array, location){
+const logDriversByHometown = function(array, location){
   array.forEach((driver) => {
     if (driver.hometown === location){
        console.log(driver.name);
@@ -13,22 +13,22 @@ function logDriversByHometown(array, location){
   })
 }
 
-function driversByRevenue(array){
-//  return array.sort(function (a, b){
-  //  return a.revenue - b.revenue;
-//  })
+const driversByRevenue= function(array){
+  return array.sort(function (a, b){
+    return a.revenue - b.revenue;
+  })
 }
 
-function driversByName(array){
+const driversByName = function(array){
   return array.sort(function (a, b){
     return a.name.localeCompare(b.name);
   })
 }
 
-function totalRevenue(array){
+const totalRevenue = function(array){
 
 }
 
-function averageRevenue(array){
+const averageRevenue = function(array){
 
 }
